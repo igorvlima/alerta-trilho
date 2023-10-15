@@ -1,0 +1,6 @@
+‚13:45:52.800 [Test worker] INFO com.br.alertmessagesendler.service.MessageSenderService -- Starting to send message notification
+Ï13:45:52.814 [Test worker] ERROR com.br.alertmessagesendler.service.MessageSenderService -- An error occurred while sending the message: Cannot invoke "feign.Response.status()" because "smsRequest" is null
+‚13:45:52.815 [Test worker] INFO com.br.alertmessagesendler.service.MessageSenderService -- Starting to send message notification
+Ï13:45:52.816 [Test worker] ERROR com.br.alertmessagesendler.service.MessageSenderService -- An error occurred while sending the message: Cannot invoke "feign.Response.status()" because "smsRequest" is null
+‚13:45:52.817 [Test worker] INFO com.br.alertmessagesendler.service.MessageSenderService -- Starting to send message notification
+Ï13:45:52.818 [Test worker] ERROR com.br.alertmessagesendler.service.MessageSenderService -- An error occurred while sending the message: Cannot invoke "feign.Response.status()" because "smsRequest" is null

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.br.alertmessagesendler.service.MessageSenderServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-05T16:45:49" hostname="DELL-G15" time="3.221">
+  <properties/>
+  <testcase name="testSendMessageWhenMultipleUsersAssociatedWithAffectedLine()" classname="com.br.alertmessagesendler.service.MessageSenderServiceTest" time="3.221"/>
+  <system-out><![CDATA[13:45:52.800 [Test worker] INFO com.br.alertmessagesendler.service.MessageSenderService -- Starting to send message notification
+13:45:52.814 [Test worker] ERROR com.br.alertmessagesendler.service.MessageSenderService -- An error occurred while sending the message: Cannot invoke "feign.Response.status()" because "smsRequest" is null
+13:45:52.815 [Test worker] INFO com.br.alertmessagesendler.service.MessageSenderService -- Starting to send message notification
+13:45:52.816 [Test worker] ERROR com.br.alertmessagesendler.service.MessageSenderService -- An error occurred while sending the message: Cannot invoke "feign.Response.status()" because "smsRequest" is null
+13:45:52.817 [Test worker] INFO com.br.alertmessagesendler.service.MessageSenderService -- Starting to send message notification
+13:45:52.818 [Test worker] ERROR com.br.alertmessagesendler.service.MessageSenderService -- An error occurred while sending the message: Cannot invoke "feign.Response.status()" because "smsRequest" is null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
