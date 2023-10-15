@@ -27,7 +27,8 @@ class LineNotificationControllerTest {
     @Test
     void createDelayWithNullLine() {
         DelayRequest delayRequest = new DelayRequest(null, LocalDateTime.now(), "Teste");
-class, () -> {
+
+        assertThrows(ValidationException.class, () -> {
             NotificationRequestConverter.convertDelayRequestToNotificationRequest(delayRequest);
         });
     }
