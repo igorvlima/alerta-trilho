@@ -58,8 +58,6 @@ class MessageSenderServiceTest {
         verify(messageSenderUpstreamService, never()).sendMessage(any());
     }
 
-
-
     @Test
     public void testSendMessageWhenMultipleUsersAssociatedWithAffectedLine() {
 
@@ -78,6 +76,4 @@ class MessageSenderServiceTest {
 
         verify(messageSenderUpstreamService, times(3)).sendMessage(any());
     }
-
-
 }
