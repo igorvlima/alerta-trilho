@@ -22,12 +22,10 @@ class TwilioSmsSenderTest {
         smsSender = new TwilioSmsSender(twilioConfiguration);
     }
 
-
     @Test
     void testSendSmsWithInvalidPhoneNumber() {
 
         SmsRequest smsRequest = new SmsRequest("+55123123", "Test message");
-
 
         assertThrows(IllegalArgumentException.class, () -> smsSender.sendSms(smsRequest));
     }
